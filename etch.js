@@ -1,5 +1,7 @@
-const grid = document.getElementsByClassName("grid");
-for (let i = 0; i++; i < 16) {
+const container = document.querySelector(".container");
+for (let i = 0; i < 256; i++) {
     const div = document.createElement("div");
-    grid.appendChild(div);
-}
+    div.classList.add("flex-child");
+    div.textContent = "item #" + i;
+    container.append(div);
+}   

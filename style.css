@@ -1,3 +1,7 @@
-.grid {display: grid;}
+.container {display:flex;
+    flex-flow: row wrap;
+width: 1280px;
+height: 1280px;}
 
-div {background-color: aqua;}
+.flex-child {background-color: aqua;
+flex: 1 1 80px}
