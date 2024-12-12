@@ -3,5 +3,10 @@
 width: 1280px;
 height: 1280px;}
 
-.flex-child {background-color: aqua;
-flex: 1 1 80px}
+.flex-child {background-color: #00ffff;
+    transition: background-color 0.2s;
+flex: 1 1 80px;}
+
+.flex-child.hovered{
+    background-color: #113333;
+}
